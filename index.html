@@ -3,15 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Harltze – Coming Soon</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Harltze | Frozen in Time</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: url('dracular.png') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      padding: 80px 20px 40px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+    .about {
+      max-width: 600px;
+      margin: 40px auto;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .buttons {
+      margin: 30px 0;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      border: 1px solid white;
+      border-radius: 25px;
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+    .buttons a:hover {
+      background: white;
+      color: black;
+    }
+    form {
+      margin: 30px auto;
+      max-width: 400px;
+    }
+    input[type="email"] {
+      padding: 12px;
+      width: 70%;
+      border: none;
+      border-radius: 20px 0 0 20px;
+      outline: none;
+    }
+    button {
+      padding: 12px 20px;
+      border: none;
+      background: white;
+      color: black;
+      font-weight: bold;
+      border-radius: 0 20px 20px 0;
+      cursor: pointer;
+    }
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
 </head>
 <body>
-  <div class="overlay">
-    <div class="content">
-      <h1>Coming Soon</h1>
-      <p>Get ready! Something really cool is coming!</p>
-    </div>
+  <header>
+    <h1>Harltze</h1>
+    <p>Frozen in Time</p>
+  </header>
+
+  <section class="about">
+    <p>Harltze is a luxury fashion and digital art brand redefining timelessness through design. 
+       From apparel to crafted accessories, every piece carries the spirit of being 
+       <em>frozen in time</em>. Explore what’s coming soon.</p>
+  </section>
+
+  <div class="buttons">
+    <a href="https://www.instagram.com/harltze?igsh=NTQwdTg1bjVma3Fr&utm_source=qr" target="_blank">Instagram</a>
+    <a href="https://linkedin.com/company/your-company" target="_blank">LinkedIn</a>
+    <a href="https://x.com/harltze?s=21" target="_blank">X</a>
+    <a href="https://www.tiktok.com/@harltze?_t=ZS-8z6UzkoPk6E&_r=1" target="_blank">TikTok</a>
+    <a href="mailto:hello@harltze.com">Email Us</a>
   </div>
+
+  <form action="https://formspree.io/f/xvgqeejz" method="POST">
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <button type="submit">Notify Me</button>
+  </form>
+
+  <footer>
+    © Harltze 2025. All rights reserved.
+  </footer>
 </body>
 </html>
