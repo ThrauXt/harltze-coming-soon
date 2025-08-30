@@ -5,56 +5,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Harltze | Frozen in Time</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<!-- Favicon for browsers -->
-<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-<link rel="shortcut icon" href="/icons/favicon.ico">
 
-<!-- Apple devices -->
-<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <!-- Favicon for browsers -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+  <link rel="shortcut icon" href="/icons/favicon.ico">
 
-<!-- Android / Chrome -->
-<link rel="icon" type="image/png" sizes="192x192" href="/icons/android-chrome-192x192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="/icons/android-chrome-512x512.png">
+  <!-- Apple devices -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
 
-<!-- Manifest -->
-<link rel="manifest" href="/manifest.json">
-<!-- Canonical -->
-<link rel="canonical" href="https://harltze.com/">
-<!-- Basic SEO -->
-<meta name="description" content="Harltze is a privately held streetwear and custom apparel brand. Frozen in Time.">
+  <!-- Android / Chrome -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/icons/android-chrome-512x512.png">
 
-<meta name="theme-color" content="#000000">
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="/icons/mstile-150x150.png">
-<!-- Open Graph (for Facebook, WhatsApp, LinkedIn) -->
-<meta property="og:title" content="Harltze – Luxury Fashion & Art">
-<meta property="og:description" content="Harltze is a luxury brand crafting fashion and digital art with timeless elegance. Join the movement.">
-<meta property="og:image" content="https://harltze.com/harltze-preview.png">
-<meta property="og:url" content="https://harltze.com">
-<meta property="og:type" content="website">
+  <!-- Manifest -->
+  <link rel="manifest" href="/manifest.json">
 
-<!-- Twitter (X) Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Harltze – Luxury Fashion & Art">
-<meta name="twitter:description" content="Harltze is a luxury brand crafting fashion and digital art with timeless elegance. Coming soon.">
-<meta name="twitter:image" content="https://harltze.com/harltze-preview.png">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://harltze.com/">
 
-<!-- Structured Data (JSON-LD Schema) -->
-  <script type="application/ld+json">
-  {
+  <!-- Basic SEO -->
+  <meta name="description" content="Harltze is a privately held streetwear and custom apparel brand. Frozen in Time.">
+
+  <meta name="theme-color" content="#000000">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-TileImage" content="/icons/mstile-150x150.png">
+
+  <!-- Open Graph (for Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:title" content="Harltze – Luxury Fashion & Art">
+  <meta property="og:description" content="Harltze is a luxury brand crafting fashion and digital art with timeless elegance. Join the movement.">
+  <meta property="og:image" content="https://harltze.com/harltze-preview.png">
+  <meta property="og:url" content="https://harltze.com">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter (X) Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Harltze – Luxury Fashion & Art">
+  <meta name="twitter:description" content="Harltze is a luxury brand crafting fashion and digital art with timeless elegance. Coming soon.">
+  <meta name="twitter:image" content="https://harltze.com/harltze-preview.png">
+
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Harltze",
   "url": "https://harltze.com",
-  "logo": "https://harltze.com/icons/android-chrome-112x112.png",
+  "logo": "https://harltze.com/icons/android-chrome-512x512.png",
   "description": "Harltze is a luxury fashion and digital art brand based in Nigeria, shipping worldwide. We create premium apparel, accessories, and framed digital art pieces that blend creativity with elegance.",
   "founder": {
     "@type": "Person",
     "name": "Azeez Olaide Rabiu"
   },
-  "foundingDate": "2025",
-    "contactPoint": {
+  "foundingDate": "2025-06",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Nigeria",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "NG"
+    }
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "Harltze",
+    "logo": "https://harltze.com/icons/android-chrome-512x512.png"
+  },
+  "knowsAbout": [
+    "Luxury fashion",
+    "Streetwear",
+    "Custom apparel",
+    "Accessories",
+    "Digital art",
+    "Framed art"
+  ],
+  "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer support",
     "email": "support@harltze.com",
@@ -77,12 +101,12 @@
 }
 </script>
 
- <style>
+  <style>
     * {margin:0;padding:0;box-sizing:border-box;}
     body {
       font-family: "Helvetica Neue", Arial, sans-serif;
-      background-color: #450B59; /* Purple background */
-      color: #ffffff; /* White text */
+      background-color: #450B59;
+      color: #ffffff;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -91,13 +115,8 @@
       text-align: center;
       padding: 2rem;
     }
-    .brand {
-        font-family: 'News706BT', serif;
-        }
-    img.logo {
-      width: 120px; /* adjust size */
-      margin-bottom: 1.5rem;
-    }
+    .brand { font-family: 'News706BT', serif; }
+    img.logo { width: 120px; margin-bottom: 1.5rem; }
     h1 {
       font-size: 3rem;
       font-weight: 700;
@@ -115,94 +134,105 @@
       gap: 2rem;
       margin-bottom: 0rem;
     }
-    .countdown div {text-align: center;}
+    .countdown div { text-align: center; }
     .countdown span {
       display: block;
       font-size: 2.2rem;
       font-weight: bold;
     }
-form {
-    margin-top: 1rem;
-    margin: 40px auto;
-    max-width: 400px;
-    display: flex;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255,255,255,0.3);
-    border-radius: 40px;
-    overflow: hidden;
-    backdrop-filter: blur(6px);
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-}
-
-input[type="email"] {
-  flex: 1;
-  padding: 14px 18px;
-  border: none;
-  background: transparent;
-  color: white;
-  font-size: 1rem;
-  outline: none;
-}
-
-input::placeholder {
-  color: rgba(255,255,255,0.7);
-}
-
-button {
-  padding: 14px 25px;
-  border: none;
-  background: white;
-  color: black;
-  font-size: 0.95rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-button:hover {
-  background: #bb1ec7;
-  transform: scale(1.05);
-}
-
- .socials {
-    display: grid;
-    grid-template-columns: repeat(6, auto); /* 6 icons per row */
-    gap: 1rem;
-    justify-content: center;
-    margin-top: -1rem;
-  }
-  .socials a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.15);
-    color: #ffffff;
-    font-size: 1.4rem;
-    text-decoration: none;
-    transition: all 0.3s ease;
-  }
-  .socials a:hover {
-    background: #ffffff;
-    color: #450B59; /* Harltze purple */
-    transform: translateY(-3px);
-  }
-
-
-    .form-message {margin-top: 1rem;font-size: 0.95rem;color: #e0e0e0;}
+    .footer-wrapper {
+      padding: 0 20px;
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    form {
+      margin: 40px auto 20px auto;
+      max-width: 100%;
+      display: flex;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 40px;
+      overflow: hidden;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+    input[type="email"] {
+      flex: 1;
+      padding: 14px 18px;
+      border: none;
+      background: transparent;
+      color: white;
+      font-size: 1rem;
+      outline: none;
+    }
+    input::placeholder { color: rgba(255,255,255,0.7); }
+    button {
+      padding: 14px 25px;
+      border: none;
+      background: white;
+      color: black;
+      font-size: 0.95rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    button:hover { background: #bb1ec7; transform: scale(1.05); }
+    @media (max-width: 400px) {
+      form { flex-direction: column; border-radius: 20px; }
+      input[type="email"] {
+        width: 100%;
+        padding: 12px 15px;
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+      }
+      button { width: 100%; border-radius: 0 0 20px 20px; padding: 14px; }
+    }
+    .form-message {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      text-align: center;
+      font-weight: 500;
+      opacity: 0;
+      transform: translateY(5px);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+    }
+    .form-message.show { opacity: 1; transform: translateY(0); }
+    .form-message.success { color: #4CAF50; }
+    .form-message.error { color: #FF5252; }
+    .socials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+    .socials a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.15);
+      color: #ffffff;
+      font-size: 1.4rem;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .socials a:hover { background: #ffffff; color: #450B59; transform: translateY(-3px) scale(1.1); }
+    footer { margin-top: auto; padding: 20px; font-size: 0.9rem; opacity: 0.7; }
   </style>
 </head>
 <body>
-  <!-- Logo -->
   <img src="logo.png" alt="Harltze Logo" class="logo">
 
   <h1 class="brand">Harltze</h1>
-  <p class="tagline">Luxury Fashion & Digital Art<p class="tagline">Frozen in Time</p></p>
+  <div class="taglines">
+    <p class="tagline">Luxury Fashion & Digital Art</p>
+    <p class="tagline">Frozen in Time</p>
+  </div>
 
-  <!-- Countdown -->
   <div class="countdown" id="countdown">
     <div><span id="days">00</span>Days</div>
     <div><span id="hours">00</span>Hours</div>
@@ -210,57 +240,32 @@ button:hover {
     <div><span id="seconds">00</span>Seconds</div>
   </div>
 
-  <!-- Email Signup -->
-  <form id="contact-form" action="https://formspree.io/f/xvgqeejz" method="POST">
-    <input type="email" name="email" placeholder="Enter your email" required>
-    <button type="submit">Notify Me</button>
-  </form>
-  <div class="form-message" id="form-message"></div>
+  <div class="footer-wrapper">
+    <form id="contact-form" action="https://formspree.io/f/xvgqeejz" method="POST">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <button type="submit">Notify Me</button>
+    </form>
+    <div class="form-message" id="form-message"></div>
 
-  <!-- Social Links -->
-<div class="socials">
-  <a href="https://www.facebook.com/harltze" target="_blank" aria-label="Facebook">
-    <i class="fab fa-facebook-f"></i>
-  </a>
-  <a href="https://www.instagram.com/harltze" target="_blank" aria-label="Instagram">
-    <i class="fab fa-instagram"></i>
-  </a>
-  <a href="https://x.com/harltze" target="_blank" aria-label="X">
-    <i class="fab fa-x-twitter"></i>
-  </a>
-  <a href="https://linkedin.com/company/harltze" target="_blank" aria-label="LinkedIn">
-    <i class="fab fa-linkedin-in"></i>
-  </a>
-  <a href="https://www.tiktok.com/@harltze" target="_blank" aria-label="TikTok">
-    <i class="fab fa-tiktok"></i>
-  </a>
-  <a href="https://www.threads.net/@harltze" target="_blank" aria-label="Threads">
-    <i class="fa-brands fa-threads"></i>
-  </a>
-  <a href="https://www.youtube.com/@harltze" target="_blank" aria-label="YouTube">
-    <i class="fab fa-youtube"></i>
-  </a>
-  <a href="https://www.quora.com/profile/harltze" target="_blank" aria-label="Quora">
-    <i class="fab fa-quora"></i>
-  </a>
-  <a href="https://www.pinterest.com/harltze" target="_blank" aria-label="Pinterest">
-    <i class="fab fa-pinterest-p"></i>
-  </a>
-  <a href="https://harltze.tumblr.com" target="_blank" aria-label="Tumblr">
-    <i class="fab fa-tumblr"></i>
-  </a>
-  <a href="https://www.snapchat.com/add/harltze" target="_blank" aria-label="Snapchat">
-    <i class="fab fa-snapchat-ghost"></i>
-  </a>
-  <a href="https://www.behance.net/harltze" target="_blank" aria-label="Behance">
-    <i class="fab fa-behance"></i>
-  </a>
-</div>
+    <div class="socials">
+      <a href="https://www.facebook.com/harltze" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/harltze" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://x.com/harltze" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://linkedin.com/company/harltze" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.tiktok.com/@harltze" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.threads.net/@harltze" target="_blank" rel="noopener noreferrer" aria-label="Threads"><i class="fa-brands fa-threads"></i></a>
+      <a href="https://www.youtube.com/@harltze" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.quora.com/profile/harltze" target="_blank" rel="noopener noreferrer" aria-label="Quora"><i class="fab fa-quora"></i></a>
+      <a href="https://www.pinterest.com/harltze" target="_blank" rel="noopener noreferrer" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+      <a href="https://harltze.tumblr.com" target="_blank" rel="noopener noreferrer" aria-label="Tumblr"><i class="fab fa-tumblr"></i></a>
+      <a href="https://www.snapchat.com/add/harltze" target="_blank" rel="noopener noreferrer" aria-label="Snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+      <a href="https://www.behance.net/harltze" target="_blank" rel="noopener noreferrer" aria-label="Behance"><i class="fab fa-behance"></i></a>
+    </div>
+  </div>
 <!--
- <script>
-    // Countdown to Oct 15, 2025
+  <script>
+    // Countdown to Nov 15, 2025
     const countDownDate = new Date("Nov 15, 2025 12:00:00").getTime();
-
     const timer = setInterval(function() {
       const now = new Date().getTime();
       const distance = countDownDate - now;
@@ -270,48 +275,51 @@ button:hover {
       const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      document.getElementById("days").textContent = days;
-      document.getElementById("hours").textContent = hours;
-      document.getElementById("minutes").textContent = minutes;
-      document.getElementById("seconds").textContent = seconds;
+      document.getElementById("days").textContent = String(days).padStart(2,'0');
+      document.getElementById("hours").textContent = String(hours).padStart(2,'0');
+      document.getElementById("minutes").textContent = String(minutes).padStart(2,'0');
+      document.getElementById("seconds").textContent = String(seconds).padStart(2,'0');
+
       if (distance < 0) {
         clearInterval(timer);
         document.getElementById("countdown").innerHTML = "We are live!";
       }
     }, 1000);
-    </script>
-    -->
+  </script>
+  -->
 
-    
-    <script>
-        // Formspree AJAX
+  <script>
     const form = document.getElementById("contact-form");
-    const messageBox = document.getElementById("form-message");
+    const status = document.getElementById("form-message");
 
-    form.addEventListener("submit", async function(e) {
+    form.addEventListener("submit", async (e) => {
       e.preventDefault();
-      const formData = new FormData(form);
       try {
-        const response = await fetch(form.action, {
+        let response = await fetch(form.action, {
           method: form.method,
-          body: formData,
+          body: new FormData(form),
           headers: { 'Accept': 'application/json' }
         });
         if (response.ok) {
-          messageBox.textContent = "✅ Thanks! You’ll be notified.";
+          showMessage("🎉 Thank you! You'll be notified.", "success");
           form.reset();
-           // Clear the message after 5 seconds
-            setTimeout(() => {
-                messageBox.textContent = "";
-            }, 5000);
-
         } else {
-          messageBox.textContent = "❌ Oops! Something went wrong.";
+          showMessage("⚠ Oops! Something went wrong. Try again.", "error");
         }
       } catch (error) {
-        messageBox.textContent = "❌ Network error. Try again.";
+        showMessage("⚠ Network error. Please try later.", "error");
       }
     });
+
+    function showMessage(message, type) {
+      status.textContent = message;
+      status.className = `form-message ${type} show`;
+      setTimeout(() => { status.classList.remove("show"); }, 5000);
+    }
   </script>
+
+  <footer>
+    © Harltze 2025. All rights reserved.
+  </footer>
 </body>
 </html>
