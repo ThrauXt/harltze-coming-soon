@@ -22,7 +22,7 @@
 <!-- Canonical -->
 <link rel="canonical" href="https://harltze.com/">
 <!-- Basic SEO -->
-<meta name="description" content=""Harltze is a privately held streetwear and custom apparel brand. Frozen in Time."">
+<meta name="description" content="Harltze is a privately held streetwear and custom apparel brand. Frozen in Time.">
 
 <meta name="theme-color" content="#000000">
 <meta name="msapplication-TileColor" content="#000000">
@@ -75,68 +75,63 @@
     "https://www.behance.net/harltze"
   ]
 }
-  </script>
+</script>
 
-  <style>
+ <style>
+    * {margin:0;padding:0;box-sizing:border-box;}
     body {
-      margin: 0;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      background-color: #450B59;
-      color: white;
-      text-align: center;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: #450B59; /* Purple background */
+      color: #ffffff; /* White text */
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
       min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
     }
-    header {
-      padding: 80px 20px 40px;
+    .brand {
+        font-family: 'News706BT', serif;
+        }
+    img.logo {
+      width: 120px; /* adjust size */
+      margin-bottom: 1.5rem;
     }
-    header h1 {
+    h1 {
       font-size: 3rem;
-      margin: 0;
-      letter-spacing: 2px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
     }
-    header p {
-      font-size: 1.2rem;
-      opacity: 0.8;
+    p.tagline {
+      font-size: 1.3rem;
+      color: #e0e0e0;
+      margin-bottom: 2.5rem;
     }
-    .about {
-      max-width: 600px;
-      margin: 40px auto;
-      font-size: 1rem;
-      line-height: 1.6;
+    .countdown {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 0rem;
     }
-   .social-links {
-  margin-top: 30px;
-  text-align: center;
-}
-
-.social-links a {
-  display: inline-block;
-  margin: 0 12px;
-  font-size: 22px;
-  color: white;
-  background: rgba(255,255,255,0.1);
-  padding: 12px;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-
-.social-links a:hover {
-  background: white;
-  color: black;
-  transform: scale(1.15);
-}
-    form {
-  margin: 40px auto;
-  max-width: 400px;
-  display: flex;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255,255,255,0.3);
-  border-radius: 40px;
-  overflow: hidden;
-  backdrop-filter: blur(6px);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    .countdown div {text-align: center;}
+    .countdown span {
+      display: block;
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+form {
+    margin-top: 1rem;
+    margin: 40px auto;
+    max-width: 400px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 40px;
+    overflow: hidden;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
 }
 
 input[type="email"] {
@@ -166,56 +161,157 @@ button {
 }
 
 button:hover {
-  background: #f5f5f5;
+  background: #bb1ec7;
   transform: scale(1.05);
 }
-    footer {
-      margin-top: auto;
-      padding: 20px;
-      font-size: 0.9rem;
-      opacity: 0.7;
-    }
+
+ .socials {
+    display: grid;
+    grid-template-columns: repeat(6, auto); /* 6 icons per row */
+    gap: 1rem;
+    justify-content: center;
+    margin-top: -1rem;
+  }
+  .socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .socials a:hover {
+    background: #ffffff;
+    color: #450B59; /* Harltze purple */
+    transform: translateY(-3px);
+  }
+
+
+    .form-message {margin-top: 1rem;font-size: 0.95rem;color: #e0e0e0;}
   </style>
 </head>
 <body>
-  <header>
-    <h1>Harltze</h1>
-    <p>Frozen in Time</p>
-  </header>
+  <!-- Logo -->
+  <img src="logo.png" alt="Harltze Logo" class="logo">
 
-  <section class="about">
-    <p>Harltze is a luxury fashion and digital art brand redefining timelessness through design. 
-       From apparel to crafted accessories, every piece carries the spirit of being 
-       <em>frozen in time</em>. Explore what’s coming soon.</p>
-  
+  <h1 class="brand">Harltze</h1>
+  <p class="tagline">Luxury Fashion & Digital Art<p class="tagline">Frozen in Time</p></p>
 
-  <div class="social-links">
-    <a href="https://www.instagram.com/harltze?igsh=NTQwdTg1bjVma3Fr&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://linkedin.com/company/your-company" target="_blank"><i class="fab fa-linkedin"></i></a>
-    <a href="https://x.com/harltze?s=21" target="_blank"><i class="fab fa-x-twitter"></i></a>
-    <a href="https://www.tiktok.com/@harltze?_t=ZS-8z6UzkoPk6E&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
-    <a href="mailto:hello@harltze.com">Email Us</a>
+  <!-- Countdown -->
+  <div class="countdown" id="countdown">
+    <div><span id="days">00</span>Days</div>
+    <div><span id="hours">00</span>Hours</div>
+    <div><span id="minutes">00</span>Minutes</div>
+    <div><span id="seconds">00</span>Seconds</div>
   </div>
 
-    </section>
-
-  <form action="https://formspree.io/f/xvgqeejz" method="POST">
+  <!-- Email Signup -->
+  <form id="contact-form" action="https://formspree.io/f/xvgqeejz" method="POST">
     <input type="email" name="email" placeholder="Enter your email" required>
     <button type="submit">Notify Me</button>
   </form>
+  <div class="form-message" id="form-message"></div>
 
-  <footer>
-    © Harltze 2025. All rights reserved.
-  </footer>
+  <!-- Social Links -->
+<div class="socials">
+  <a href="https://www.facebook.com/harltze" target="_blank" aria-label="Facebook">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.instagram.com/harltze" target="_blank" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://x.com/harltze" target="_blank" aria-label="X">
+    <i class="fab fa-x-twitter"></i>
+  </a>
+  <a href="https://linkedin.com/company/harltze" target="_blank" aria-label="LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="https://www.tiktok.com/@harltze" target="_blank" aria-label="TikTok">
+    <i class="fab fa-tiktok"></i>
+  </a>
+  <a href="https://www.threads.net/@harltze" target="_blank" aria-label="Threads">
+    <i class="fa-brands fa-threads"></i>
+  </a>
+  <a href="https://www.youtube.com/@harltze" target="_blank" aria-label="YouTube">
+    <i class="fab fa-youtube"></i>
+  </a>
+  <a href="https://www.quora.com/profile/harltze" target="_blank" aria-label="Quora">
+    <i class="fab fa-quora"></i>
+  </a>
+  <a href="https://www.pinterest.com/harltze" target="_blank" aria-label="Pinterest">
+    <i class="fab fa-pinterest-p"></i>
+  </a>
+  <a href="https://harltze.tumblr.com" target="_blank" aria-label="Tumblr">
+    <i class="fab fa-tumblr"></i>
+  </a>
+  <a href="https://www.snapchat.com/add/harltze" target="_blank" aria-label="Snapchat">
+    <i class="fab fa-snapchat-ghost"></i>
+  </a>
+  <a href="https://www.behance.net/harltze" target="_blank" aria-label="Behance">
+    <i class="fab fa-behance"></i>
+  </a>
+</div>
+<!--
+ <script>
+    // Countdown to Oct 15, 2025
+    const countDownDate = new Date("Nov 15, 2025 12:00:00").getTime();
+
+    const timer = setInterval(function() {
+      const now = new Date().getTime();
+      const distance = countDownDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").textContent = days;
+      document.getElementById("hours").textContent = hours;
+      document.getElementById("minutes").textContent = minutes;
+      document.getElementById("seconds").textContent = seconds;
+      if (distance < 0) {
+        clearInterval(timer);
+        document.getElementById("countdown").innerHTML = "We are live!";
+      }
+    }, 1000);
+    </script>
+    -->
+
+    
+    <script>
+        // Formspree AJAX
+    const form = document.getElementById("contact-form");
+    const messageBox = document.getElementById("form-message");
+
+    form.addEventListener("submit", async function(e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      try {
+        const response = await fetch(form.action, {
+          method: form.method,
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        });
+        if (response.ok) {
+          messageBox.textContent = "✅ Thanks! You’ll be notified.";
+          form.reset();
+           // Clear the message after 5 seconds
+            setTimeout(() => {
+                messageBox.textContent = "";
+            }, 5000);
+
+        } else {
+          messageBox.textContent = "❌ Oops! Something went wrong.";
+        }
+      } catch (error) {
+        messageBox.textContent = "❌ Network error. Try again.";
+      }
+    });
+  </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
